@@ -442,8 +442,25 @@ div.skills {
 .name {
     width: 100%;
     text-shadow: 1px 1px #458;
+    padding-right: 27px;
 }
 
+.language {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: #eee;
+    margin: 0 3px 0 0;
+    text-shadow: 1px 1px 1px #000;
+    min-height: 48px;
+    min-width: 48px;
+    font: 700 20px Abel, sans-serif;
+}
+
+.language:hover {
+    text-decoration: underline;
+    color: #fff;
+}
 
 /* Social media icons*/
 
